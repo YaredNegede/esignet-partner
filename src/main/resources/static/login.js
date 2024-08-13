@@ -1,9 +1,9 @@
 const loginBtn = document.getElementById('login-btn');
 
 loginBtn.addEventListener('click', () => {
-    const authorizationEndpoint = 'http://localhost:3000/authorize';
-    const clientId = '3yz7-j3xRzU3SODdoNgSGvO_cD8UijH3AIWRDAg1x-M';
-    const redirectUri = 'https://healthservices.dev.mosip.com/userprofile';
+    const authorizationEndpoint = 'https://esignet.ltsstaging.fayda.et/authorize';
+    const clientId = '419258';
+    const redirectUri = 'http://localhost:3000/callback.html';
     const state='string'
     const nonce='string'
     const transactionId='k34RJudx8gD_B-vcRlHW8ZgONnI4d076I-BboPsAbx0'
